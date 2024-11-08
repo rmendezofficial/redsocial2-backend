@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from routers import users
 
 origins = [
-    "http://a.rcmendez.com", 
+    "https://a.rcmendez.com", 
 ]
 
 app=FastAPI()
